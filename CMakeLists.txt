@@ -4,6 +4,7 @@ set (SRC_IMGUI_LIST
 	imgui.cpp
 	imgui_draw.cpp
 	imgui_demo.cpp
+	imgui_widgets.cpp
 )
 file (GLOB HEADER_IMGUI_LIST "*.h*")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
